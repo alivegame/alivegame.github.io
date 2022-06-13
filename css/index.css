@@ -10,6 +10,10 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+.nav_max .center img{
+    width: 35px;
+    height: 35px;
+}
 h1{
     font-size: 20px;
     line-height: 28px;
@@ -30,12 +34,36 @@ h1{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    margin-right: 80px;
+    line-height: 28px;
+    margin-right: 50px;
+}
+.nav_hover a{
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffc400;
+}
+.nav_hover a:hover{
+    border-color: #fff;
 }
 header{
     width: 100%;
 }
-.center{
-    width: 1200px;
-    margin: 0 auto;
+.nav_zc{
+    line-height: 48px;
+}
+.nav_zc a{
+    width: 50px;
+    line-height: 28px;
+    margin-right: 10px;
+    border-radius: 20%;
+    background-color: #ffc400;
+    border-style: solid;
+    border-color: #fff;
+    text-align: center;
+}
+#zc2{
+    background-color: #fff;
+    color: #ffc400;
 }
