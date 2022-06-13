@@ -4,16 +4,33 @@
     background-color: #ffc400;
     margin-bottom: 10px;
 }
-a{
+.nav_max .center>a{
     display: inline-block;
     font-size: 20px;
-    width: 200px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 h1{
     font-size: 20px;
+    line-height: 28px;
+}
+.nav_max .center p{
+    font-size: 12px;
+}
+.nav_dh{
+    float: right;
+}
+.nav_dh li{
+    float: left;
+    display: inline-block;
     line-height: 48px;
+}
+.nav_dh a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 80px;
 }
 header{
     width: 100%;
