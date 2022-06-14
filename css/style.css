@@ -1,11 +1,14 @@
+/* 全局样式 */
 *{
     padding: 0;
     margin: 0;
 }
+/* body全局样式 */
 body{
     font-size: 12px;
     background-color: #fefefe;
 }
+/* 公共居中部分 */
 .center{
     width: 1000px;
     margin: 0 auto;
