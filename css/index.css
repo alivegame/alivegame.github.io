@@ -125,6 +125,12 @@ h1{
         height: 60px;
         float: left;
     }
+    #home{
+        border-top: 1px solid #fff;
+    }
+    #home:after{
+        content: "建议使用PC端进行访问！";
+    }
     .nav_dh li{
         width: 100%;
         line-height: 20px;
