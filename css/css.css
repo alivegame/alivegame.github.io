@@ -149,6 +149,9 @@ h1{
     .nav_zc{
         display: none;
     }
+    header img{
+        display: none;
+    }
 }
 
 /* 中间部分 */
